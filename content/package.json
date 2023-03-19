@@ -1,0 +1,13 @@
+{
+  "name": "content-script",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc main.ts",
+    "watch": "tsc -p ./ --watch --preserveWatchOutput"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.2"
+  }
+}
