@@ -1,0 +1,15 @@
+{
+  "name": "repeer-common",
+  "version": "1.0.0",
+  "main": "main.ts",
+  "author": "felix niemeyer",
+  "license": "MIT",
+  "type": "module",
+  "devDependencies": {
+    "typescript": "^5.0.2"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -p ./ --watch --preserveWatchOutput"
+  }
+}

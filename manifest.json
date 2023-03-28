@@ -6,11 +6,13 @@
   "description": "shows agent reputation based on personal experiences",
 
   "icons": {
+    "48": "popup/icon.svg",
+    "128": "popup/icon.svg"
   },
 
   "content_scripts": [
     {
-      "matches": ["*"],
+      "matches": ["<all_urls>"],
       "js": ["content.js"]
     }
   ], 
@@ -21,7 +23,7 @@
 
   "browser_action": {
     "default_title": "repeer",
-    "default_icon": "popup/icon.png", 
+    "default_icon": "popup/icon.svg", 
     "default_popup": "popup/index.html"
   }
 }

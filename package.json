@@ -1,0 +1,17 @@
+{
+  "name": "repeer",
+  "version": "1.0.0",
+  "description": "a browser extension that helps you track trustworthyness in the cyberspace",
+  "repository": "git@github.com:felixniemeyer/repeer.git",
+  "author": "Felix Niemeyer <niemeyer.felix@gmail.com>",
+  "private": true,
+  "workspaces": [
+    "common", 
+    "background",
+    "content",
+    "popup"
+  ], 
+  "scripts": {
+    "watch": "yarn workspace foreach --parallel run watch"
+  }
+}
